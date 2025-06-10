@@ -1,0 +1,74 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+    "path": "/animations/-",
+    "value": {
+      "name": "Mechsit",
+      "code": "mechsit",
+      "quantityframes": 10,
+      "onActivityStopped": "Stop",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "UpperTorso": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -3.0
+            },
+            "UpperFootL": {
+              "rotationX": -2.0,
+              "rotationY": 0.0,
+              "rotationZ": -120.0
+            },
+            "UpperFootR": {
+              "rotationX": 2.0,
+              "rotationY": 0.0,
+              "rotationZ": -120.0
+            },
+            "LowerFootL": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 130.0
+            },
+            "LowerFootR": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 130.0
+            },
+            "LowerTorso": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 10.0
+            },
+            "UpperArmR": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 3.0
+            },
+            "LowerArmR": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -98.0
+            },
+            "UpperArmL": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 3.0
+            },
+            "LowerArmL": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -98.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

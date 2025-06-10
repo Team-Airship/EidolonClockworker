@@ -1,0 +1,168 @@
+{
+	"code": "mecha",
+	"class": "ItemCreature",
+	"shapeByType": {
+		"*": { "base": "entity/mechtest1" }
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "eidolonmech" ]
+		},
+		{
+			"code": "wood",
+			"states": [ "aged" ],
+			"loadFromProperties": "game:block/wood"
+		},
+		{
+			"code": "plate",
+			"states": [
+				"copper",
+				"tinbronze",
+				"bismuthbronze",
+				"bismuth",
+				"blackbronze",
+				"brass",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"uranium"
+			]
+		},
+		{
+			"code": "bolts",
+			"states": [ "tinbronze", "cupronickel", "iron", "bismuthbronze", "blackbronze", "meteoriciron", "steel" ]
+		}
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"texturesByType": {
+		"*-brass-*": {
+			"reedrope": { "base": "game:block/cloth/reedrope" },
+			"leather": { "base": "game:block/leather/chromium" },
+			"plain": { "base": "game:block/leather/plain" },
+			"red": { "base": "game:block/leather/red" },
+			"lattice": { "base": "game:block/machine/lattice" },
+			"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+			"chain-steel": { "base": "game:block/metal/armor-generic/chain-tinbronze" },
+			"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+			"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+			"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+			"gold": { "base": "game:block/metal/tarnished/gold" },
+			"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+			"aged": { "base": "game:block/wood/debarked/{wood}" },
+			"oak": { "base": "game:block/wood/oak" },
+			"wood": { "base": "game:block/wood/oak" },
+			"rope": { "base": "game:item/resource/rope" },
+			"temporalgear": { "base": "game:item/resource/temporalgear" },
+			"string": { "base": "game:item/tool/material/string" }
+		},
+		"*-uranium-*": {
+			"reedrope": { "base": "game:block/cloth/reedrope" },
+			"leather": { "base": "game:block/leather/chromium" },
+			"plain": { "base": "game:block/leather/plain" },
+			"red": { "base": "game:block/leather/red" },
+			"lattice": { "base": "game:block/machine/lattice" },
+			"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+			"chain-steel": { "base": "game:block/metal/armor-generic/chain-steel" },
+			"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+			"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+			"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+			"gold": { "base": "game:block/metal/tarnished/gold" },
+			"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+			"aged": { "base": "game:block/wood/debarked/{wood}" },
+			"oak": { "base": "game:block/wood/oak" },
+			"wood": { "base": "game:block/wood/oak" },
+			"rope": { "base": "game:item/resource/rope" },
+			"temporalgear": { "base": "game:item/resource/temporalgear" },
+			"string": { "base": "game:item/tool/material/string" }
+		},
+		"*-bismuth-*": {
+			"reedrope": { "base": "game:block/cloth/reedrope" },
+			"leather": { "base": "game:block/leather/chromium" },
+			"plain": { "base": "game:block/leather/plain" },
+			"red": { "base": "game:block/leather/red" },
+			"lattice": { "base": "game:block/machine/lattice" },
+			"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+			"chain-steel": { "base": "game:block/metal/armor-generic/chain-steel" },
+			"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+			"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+			"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+			"gold": { "base": "game:block/metal/tarnished/gold" },
+			"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+			"aged": { "base": "game:block/wood/debarked/{wood}" },
+			"oak": { "base": "game:block/wood/oak" },
+			"wood": { "base": "game:block/wood/oak" },
+			"rope": { "base": "game:item/resource/rope" },
+			"temporalgear": { "base": "game:item/resource/temporalgear" },
+			"string": { "base": "game:item/tool/material/string" }
+		},
+		"*": {
+			"reedrope": { "base": "game:block/cloth/reedrope" },
+			"leather": { "base": "game:block/leather/chromium" },
+			"plain": { "base": "game:block/leather/plain" },
+			"red": { "base": "game:block/leather/red" },
+			"lattice": { "base": "game:block/machine/lattice" },
+			"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+			"chain-steel": { "base": "game:block/metal/armor-generic/chain-{plate}" },
+			"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+			"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+			"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+			"gold": { "base": "game:block/metal/tarnished/gold" },
+			"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+			"aged": { "base": "game:block/wood/debarked/{wood}" },
+			"oak": { "base": "game:block/wood/oak" },
+			"wood": { "base": "game:block/wood/oak" },
+			"rope": { "base": "game:item/resource/rope" },
+			"temporalgear": { "base": "game:item/resource/temporalgear" },
+			"string": { "base": "game:item/tool/material/string" }
+		}
+	},
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "eidolonmech-{wood}-{plate}-*" ]
+		}
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"maxstacksize": 1,
+	"materialDensity": 1,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"clockworkers": [ "*" ]
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": -4,
+			"y": -117,
+			"z": 171
+		},
+		"origin": {
+			"x": -0,
+			"y": 3.2,
+			"z": 0.19
+		},
+		"scaleXyz": {
+			"x": -1.52,
+			"y": 1.52,
+			"z": 1.52
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.6,
+			"z": -1.5
+		},
+		"rotation": {
+			"x": 95,
+			"y": -173,
+			"z": 83
+		},
+		"scale": 0.25
+	}
+}

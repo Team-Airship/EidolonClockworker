@@ -1,0 +1,38 @@
+{
+	"game:tabname-clockworkers": "Clockworkers",
+
+	"item-mechextra-shortlever-*": "Clockworker Lever Short",
+	"item-mechextra-longlever-*": "Clockworker Lever Long",
+	"item-mechextra-mechhead-*": "Clockworker Head",
+	"item-mechextra-mechlock-*": "Clockworker Lock",
+
+	"item-creature-eidolonmech-*-copper-*": "Copper Clockworker",
+	"item-creature-eidolonmech-*-tinbronze-*": "Tinbronze Clockworker",
+	"item-creature-eidolonmech-*-bismuthbronze-*": "Bismuthbronze Clockworker",
+	"item-creature-eidolonmech-*-bismuth-*": "Bismuth Clockworker",
+	"item-creature-eidolonmech-*-blackbronze-*": "Blackbronze Clockworker",
+	"item-creature-eidolonmech-*-brass-*": "Brass Clockworker",
+	"item-creature-eidolonmech-*-iron-*": "Iron Clockworker",
+	"item-creature-eidolonmech-*-meteoriciron-*": "Meteroric Iron Clockworker",
+	"item-creature-eidolonmech-*-steel-*": "Steel Clockworker",
+	"item-creature-eidolonmech-*-uranium-*": "Uranium Clockworker",
+
+	"item-mecha-eidolonmech-*-copper-*": "Copper Clockworker",
+	"item-mecha-eidolonmech-*-tinbronze-*": "Tinbronze Clockworker",
+	"item-mecha-eidolonmech-*-bismuthbronze-*": "Bismuthbronze Clockworker",
+	"item-mecha-eidolonmech-*-bismuth-*": "Bismuth Clockworker",
+	"item-mecha-eidolonmech-*-blackbronze-*": "Blackbronze Clockworker",
+	"item-mecha-eidolonmech-*-brass-*": "Brass Clockworker",
+	"item-mecha-eidolonmech-*-iron-*": "Iron Clockworker",
+	"item-mecha-eidolonmech-*-meteoriciron-*": "Meteroric Iron Clockworker",
+	"item-mecha-eidolonmech-*-steel-*": "Steel Clockworker",
+	"item-mecha-eidolonmech-*-uranium-*": "Uranium Clockworker",
+
+	"itemdesc-mecha-eidolonmech-*-*-tinbronze": "Made with tinbronze subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-cupronickel": "Made with cupronickel subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-iron": "Made with iron subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-bismuthbronze": "Made with bismuthbronze subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-blackbronze": "Made with blackbronze subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-meteoriciron": "Made with meteoriciron subparts.",
+	"itemdesc-mecha-eidolonmech-*-*-steel": "Made with steel subparts."
+}

@@ -1,0 +1,29 @@
+{
+	"code": "mechgantryfake",
+	"class": "EntityAgent",
+	"habitat": "land",
+	"hitBoxSizeByType": {
+		"*": {
+			"x": 3,
+			"y": 5
+		}
+	},
+	"eyeHeightByType": {
+		"*": 3.9
+	},
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+			"*": { "base": "entity/mechgantrymodel1" }
+		},
+		"sizeByType": {
+			"*": 1
+		},
+		"behaviors": [
+		]
+	},
+	"server": {
+		"behaviors": [
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "clockworkers",
+  "name": "Clockworkers",
+  "authors": [ "Rivvion" ],
+  "description": "This mod has story spoilers.",
+  "version": "0.2.0",
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.20.6"
+  }
+}

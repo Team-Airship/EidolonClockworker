@@ -1,0 +1,490 @@
+{
+	"code": "eidolonmech",
+	"class": "EntityAgent",
+	"habitat": "land",
+	"fallDamageMultiplierByType": { "*" :0},
+	"variantgroups": [
+		{"code": "wood","states": [ "aged"], "loadFromProperties": "game:block/wood"},
+		{"code": "plate","states": [ 		
+				"copper",	
+				"tinbronze",
+				"bismuthbronze",
+				"bismuth",
+				"blackbronze",
+				"brass",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"uranium"			
+				]},
+		{"code": "bolts","states": [ "tinbronze","cupronickel", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+	],
+	"hitBoxSizeByType": {
+		"*": {	"x": 1.5,"y": 3.5}
+	},
+	"deadhitBoxSizeByType": {
+		"*": {	"x": 1.5,"y": 1.5}
+	},
+	"eyeHeightByType": {
+		"*": 3.9
+	},
+		"swimmingEyeHeightByType": {
+		"*": 3.9
+	},
+	"weightByType": {
+		"*": 100
+	},
+	"knockbackResistanceByType": {
+		"*": 99
+	},
+	"attributes": {
+		"tamedByType": {"*": true },
+		"handbook": {
+			"groupcode": "creaturegroup-mech"
+		}
+			},
+	"behaviorConfigs": {
+		"controlledphysics": {
+			"stepHeight": 2,
+			"stepUpSpeed": 0.5
+		},
+		"floatupwhenstuck": { "onlyWhenDead": false },
+		"rideableaccessories": {
+			"wearableSlotsByType": {
+				"*": [
+					{
+						"code": "Chest hatch",
+						"forCategoryCodes": [ "mechlock" ],
+						"attachmentPointcode": "lockRAP",
+						"stepParentTo": { "": { "elementName": "lockR" } }
+					},
+					{
+						"code": "Lantern hook",
+						"forCategoryCodes": [ "lantern" ],
+						"attachmentPointcode": "lanternAP",
+						"stepParentTo": { "": { "elementName": "lantern" } }
+					},
+					{
+						"code": "Left thigh storage",
+						"forCategoryCodes": [ "mechsbag" ],
+						"attachmentPointcode": "sbagLAP",
+						"stepParentTo": { "": { "elementName": "sbagL" } }
+					},
+					{
+						"code": "Right thigh storage",
+						"forCategoryCodes": [ "mechsbag" ],
+						"attachmentPointcode": "sbagRAP",
+						"stepParentTo": { "": { "elementName": "sbagR" } }
+					},
+					{
+						"code": "Gear storage 1",
+						"forCategoryCodes": [ "mechgear" ],
+						"attachmentPointcode": "gear1AP",
+						"stepParentTo": { "": { "elementName": "gear1" } }
+					},
+					{
+						"code": "Gear storage 2",
+						"forCategoryCodes": [ "mechgear" ],
+						"attachmentPointcode": "gear2AP",
+						"stepParentTo": { "": { "elementName": "gear2" } }
+					},
+					{
+						"code": "Tool hanger",
+						"forCategoryCodes": [ "mechtools" ],
+						"attachmentPointcode": "sheathAP",
+						"stepParentTo": { "": { "elementName": "sheath" } }
+					},
+					{
+						"code": "Left pauldron",
+						"forCategoryCodes": [ "mechblanket" ],
+						"attachmentPointcode": "bannerAP",
+						"stepParentTo": { "": { "elementName": "banner" } }
+					},
+					{
+						"code": "Lantern hook",
+						"forCategoryCodes": [ "shields" ],
+						"attachmentPointcode": "shieldhangerAP",
+						"stepParentTo": { "": { "elementName": "shieldhanger" } }
+					},
+					{
+						"code": "Pot storage",
+						"forCategoryCodes": [ "utilities" ],
+						"attachmentPointcode": "spinebox1AP",
+						"stepParentTo": { "": { "elementName": "spinebox1" } }
+					},
+					{
+						"code": "Bedroll storage",
+						"forCategoryCodes": [ "bedroll" ],
+						"attachmentPointcode": "spinebox2AP",
+						"stepParentTo": { "": { "elementName": "spinebox2" } }
+					},
+					{
+						"code": "Left backpack storage",
+						"forCategoryCodes": [ "mechbackpack" ],
+						"attachmentPointcode": "spinebox3AP",
+						"stepParentTo": { "": { "elementName": "spinebox3" } }
+					},
+					{
+						"code": "Right backpack storage",
+						"forCategoryCodes": [ "mechbackpack" ],
+						"attachmentPointcode": "spinebox4AP",
+						"stepParentTo": { "": { "elementName": "spinebox4" } }
+					},
+					{
+						"code": "Mech head storage",
+						"forCategoryCodes": [ "mechhead" ],
+						"attachmentPointcode": "spinebox5AP",
+						"stepParentTo": { "": { "elementName": "spinebox5" } }
+					},
+					{
+						"code": "Barrel storage",
+						"forCategoryCodes": [ "mechbarrel" ],
+						"attachmentPointcode": "spinebox6AP",
+						"stepParentTo": { "": { "elementName": "spinebox6" } }
+					},
+					{
+						"code": "Control seat",
+						"forCategoryCodes": ["mechlever"],
+						"attachmentPointcode": "pilotAP",
+						"stepParentTo": { "": { "elementName": "pilot" } }
+					}
+				]
+			}
+		},
+		"selectionboxes": {
+			"selectionBoxesByType": {
+				"*": [ "lockRAP", "lanternAP", "sbagLAP", "sbagRAP", "gear1AP", "gear2AP", "sheathAP", "bannerAP", "shieldhangerAP", "spinebox1AP", "spinebox2AP", "spinebox3AP", "spinebox4AP", "spinebox5AP", "spinebox6AP", "pilotAP" ]
+			}
+		},
+		"rideable": {
+			"interactMountAnySeat": false,
+			"seats": [
+				{
+					"apName": "Rider",
+					"selectionBox": "pilotAP",
+					"bodyYawLimit": 0.2,
+					"controllable": true,
+					"mountOffsetByType": {
+						"*": {
+							"x": 1,
+							"y": -0.8,
+							"z": 1.19
+						}
+					}
+				}
+			],
+			"controls": {
+				"idle": {
+					"animation": "stand-idle1",
+					"weight": 1,
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 0.00000001,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"walk": {
+					"animation": "stand-walk",
+					"weight": 2,
+					"movespeedByType": {
+						"*": 0.03
+					},
+					"animationSpeedByType": {
+						"*": 1
+					},
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"walkback": {
+					"animation": "stand-walk",
+					"weight": 2,
+					"movespeedByType": {
+						"*": 0.015
+					},
+					"animationSpeedByType": {
+						"*": -0.58
+					},
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"sprint": {
+					"animation": "stand-run",
+					"weight": 2,
+					"movespeedByType": {
+						"*": 0.06
+					},
+					"animationSpeedByType": {
+						"*": 1
+					},
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 2,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"jump": {
+					"animation": "stand-slam",
+					"weight": 2,
+					"easeOutSpeed": 1,
+					"blendMode": "Average",
+					"animationSpeed": 1,
+					"movespeed": 1,
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"swim": {
+					"animation": "stand-walk",
+					"animationSpeed": 0.5,
+					"movespeed": 0.015,
+					"weight": 2,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				}
+			},
+		"health": {
+			"currenthealthByType": {
+				"*": 100
+			},
+			"maxhealthByType": {
+				"*": 100
+			}
+		},
+		"ownable": {
+			"groupCode": "mech"
+		}
+	}
+	},
+	"drops": [],
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+			"*": { "base": "entity/mechtest1" }
+		},
+		"texturesByType": {
+			"*-brass-*": {
+				"reedrope": { "base": "game:block/cloth/reedrope" },
+				"leather": { "base": "game:block/leather/chromium" },
+				"plain": { "base": "game:block/leather/plain" },
+				"red": { "base": "game:block/leather/red" },
+				"lattice": { "base": "game:block/machine/lattice" },
+				"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+				"chain-steel": { "base": "game:block/metal/armor-generic/chain-tinbronze" },
+				"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+				"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+				"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+				"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+				"gold": { "base": "game:block/metal/tarnished/gold" },
+				"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+				"aged": { "base": "game:block/wood/debarked/{wood}" },
+				"oak": { "base": "game:block/wood/oak" },
+				"wood": { "base": "game:block/wood/oak" },
+				"rope": { "base": "game:item/resource/rope" },
+				"temporalgear": { "base": "game:item/resource/temporalgear" },
+				"string": { "base": "game:item/tool/material/string" }
+			},
+			"*-uranium-*": {
+				"reedrope": { "base": "game:block/cloth/reedrope" },
+				"leather": { "base": "game:block/leather/chromium" },
+				"plain": { "base": "game:block/leather/plain" },
+				"red": { "base": "game:block/leather/red" },
+				"lattice": { "base": "game:block/machine/lattice" },
+				"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+				"chain-steel": { "base": "game:block/metal/armor-generic/chain-steel" },
+				"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+				"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+				"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+				"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+				"gold": { "base": "game:block/metal/tarnished/gold" },
+				"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+				"aged": { "base": "game:block/wood/debarked/{wood}" },
+				"oak": { "base": "game:block/wood/oak" },
+				"wood": { "base": "game:block/wood/oak" },
+				"rope": { "base": "game:item/resource/rope" },
+				"temporalgear": { "base": "game:item/resource/temporalgear" },
+				"string": { "base": "game:item/tool/material/string" }
+			},
+			"*-bismuth-*": {
+				"reedrope": { "base": "game:block/cloth/reedrope" },
+				"leather": { "base": "game:block/leather/chromium" },
+				"plain": { "base": "game:block/leather/plain" },
+				"red": { "base": "game:block/leather/red" },
+				"lattice": { "base": "game:block/machine/lattice" },
+				"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+				"chain-steel": { "base": "game:block/metal/armor-generic/chain-steel" },
+				"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+				"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+				"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+				"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+				"gold": { "base": "game:block/metal/tarnished/gold" },
+				"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+				"aged": { "base": "game:block/wood/debarked/{wood}" },
+				"oak": { "base": "game:block/wood/oak" },
+				"wood": { "base": "game:block/wood/oak" },
+				"rope": { "base": "game:item/resource/rope" },
+				"temporalgear": { "base": "game:item/resource/temporalgear" },
+				"string": { "base": "game:item/tool/material/string" }
+			},
+			"*": {
+				"reedrope": { "base": "game:block/cloth/reedrope" },
+				"leather": { "base": "game:block/leather/chromium" },
+				"plain": { "base": "game:block/leather/plain" },
+				"red": { "base": "game:block/leather/red" },
+				"lattice": { "base": "game:block/machine/lattice" },
+				"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+				"chain-steel": { "base": "game:block/metal/armor-generic/chain-{plate}" },
+				"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+				"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+				"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+				"stainlesssteel1": { "base": "game:block/metal/sheet/{bolts}1" },
+				"gold": { "base": "game:block/metal/tarnished/gold" },
+				"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+				"aged": { "base": "game:block/wood/debarked/{wood}" },
+				"oak": { "base": "game:block/wood/oak" },
+				"wood": { "base": "game:block/wood/oak" },
+				"rope": { "base": "game:item/resource/rope" },
+				"temporalgear": { "base": "game:item/resource/temporalgear" },
+				"string": { "base": "game:item/tool/material/string" }
+			}
+		},
+		"sizeByType": {
+			"*": 1
+		},
+		"behaviors": [
+			{ "code": "mortallywoundable", "enabledByType": { "*": false}},
+			{"code": "repulseagents", "movable":  false},
+			{"code": "controlledphysics","stepHeight": 1.1251},
+			{"code": "interpolateposition" },
+			{ "code": "selectionboxes", "enabledByType": {"*": true}},
+			{ "code": "ownable", "enabledByType": {"*": true}},
+			{ "code": "rideableaccessories", "enabledByType": {"*": true}},
+			{ "code": "rideable", "enabledByType": {"*": true}},
+			{"code": "ropetieable", "enabledByType": {"*": true}}
+		],
+		"animations": [
+			{"code": "idle","animation": "stand-idle1","animationSpeed": 0.5,"blendMode": "AddAverage","easeOutSpeed": 4,"triggeredBy": { "defaultAnim": true }},
+			{"code": "walk","animation": "stand-walk","easeInSpeed": 10,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{"code": "jump","animation": "stand-slam","easeInSpeed": 10,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{"code": "attack","animation": "stand-punch","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
+			{"code": "sprint","animation": "stand-run","easeInSpeed": 10,"easeOutSpeed": 2,"animationSpeed": 2.2,"weight": 10,"blendMode": "Average"},
+			{"code": "die","animation": "stand-die","easeInSpeed": 3,"animationSpeed": 0.75,"weight": 10,"blendMode": "Average","triggeredBy": { "onControls": [ "dead" ] }},
+			{"code": "hurt","animation": "stand-hurteye","animationSpeed": 2.2,"weight": 10,"blendMode": "AddAverage"},
+			{"code": "swim","animation": "stand-walk","supressDefaultAnimation": true,"blendMode": "Average"},
+			{"code": "dead","animation": "ground-inactive","easeInSpeed": 3,"weight": 10,"blendMode": "Average"}
+		]
+	},
+	"server": {
+		"attributes": {
+			"pathfinder": {
+				"minTurnAnglePerSec": 0,
+				"maxTurnAnglePerSecByType": { "*": 90}
+			}
+		},
+		"behaviors": [
+			{
+				"code": "mortallywoundable",
+				"whenBelowHealth": 10,
+				"enabledByType": {
+					"*": false
+				}
+			},
+			{
+				"code": "selectionboxes",
+				"enabledByType": {
+					"*": true
+				}
+			},
+			{
+				"code": "ownable",
+				"enabledByType": {
+					"*": true
+				}
+			},
+			{
+				"code": "rideableaccessories",
+				"enabledByType": {
+					"*": true
+				}
+			},
+			{
+				"code": "rideable",
+				"enabledByType": {
+					"*": true
+				}
+			},
+			{ "code": "repulseagents" },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.1251
+			},
+			{
+				"code": "health",
+				"currenthealthByType": {
+					"*": 100
+				},
+				"maxhealthByType": {
+					"*": 100
+				}
+			},
+			{
+				"code": "floatupwhenstuck",
+				"onlyWhenDead": false
+			},
+			{
+				"code": "taskai",
+				"aiCreatureType": "LandCreature",
+				"aitasks": [
+					{
+						"code": "idle",
+						"animation": "stand-idle1",
+						"priority": 1.2,
+						"minduration": 2000,
+						"maxduration": 24000,
+						"mincooldown": 6000,
+						"maxcooldown": 12000,
+						"priorityForCancel": 1.28,
+						"stopOnNearbyEntityCodes": [ "player", "bear-*", "hyena-male", "hyena-female", "wolf-male", "wolf-female" ],
+						"stopRange": 20,
+						"animationSpeedByType": {
+							"*": 0.5
+						},
+						"stopOnHurt": true
+					}
+				]
+			},
+			{
+				"code": "ropetieable"
+			}
+		]
+	},
+	"soundsByType": {
+"*":{"hurt": "game:creature/eidolon/hit","death": "game:creature/eidolon/death","idle": "game:creature/bell/listen"}},
+	"idleSoundChance": 0.25
+}

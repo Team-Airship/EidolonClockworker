@@ -1,0 +1,13 @@
+[
+	{
+		"code": "clockworkers",
+		ingredientPattern:"AAA,AHA,AAA",
+		ingredients: {
+			"A": { type: "item", code: "game:gear-temporal", quantity:1},
+			"H": { type: "item", code: "game:rod-cupronickel", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: {type: "item", code: "game:largegear-temporal" }
+	}
+]

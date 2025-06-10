@@ -1,0 +1,188 @@
+{
+	"code": "mechextra",
+	"classByType": {
+		"*lock*": "ItemMedallion"
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"shortlever",
+				"longlever",
+				"mechlock",
+				"mechhead"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"copper",
+				"tinbronze",
+				"bismuthbronze",
+				"bismuth",
+				"blackbronze",
+				"brass",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"uranium"
+			]
+		}
+	],
+	"allowedVariants": [
+		"*lever-tinbronze",
+		"*mechhead-*",
+		"*mechlock-*bronze",
+		"*mechlock-iron",
+		"*mechlock-meteoriciron",
+		"*mechlock-steel"
+	],
+	"attributesByType": {
+		"*": {
+			"attachableToEntity": {
+				"categoryCodeByType": {
+					"*lever*": "mechlever",
+					"*lock*": "mechlock",
+					"*head*": "mechhead"
+				},
+				"attachedShape": {
+					"base": "item/{type}"
+				}
+			},
+			"controlSchemeByType": {
+				"*short*": "Hold",
+				"*long*": "Press"
+			},
+			"isSaddleByType": {
+				"*lever*": true
+			},
+			"isBridleByType": {
+				"*lever*": true
+			},
+			"interactPassthroughByType": {
+				"*": false
+			},
+			"groundStorageTransform": {
+				"translation": {
+					"x": -0.3,
+					"y": 0,
+					"z": -0.04
+				},
+				"rotation": {
+					"x": -1,
+					"y": -91,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.61,
+					"y": 0.5,
+					"z": 0.7
+				},
+				"scale": 0.95
+			}
+		}
+	},
+	"behaviorsByType": { "*": [] },
+	"shapeByType": {
+		"*lock*": { "base": "game:item/tool/padlock" },
+		"*lever*": { "base": "item/lever-inventory" },
+		"*": { "base": "item/{type}" }
+	},
+	"texturesByType": {
+		"*lever*": {
+			"levertinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"leveraged": { "base": "game:block/wood/debarked/aged" }
+		},
+		"*lock*": {
+			"locksteel2": { "base": "game:block/metal/plate/{material}" },
+			"lockbrass": { "base": "game:item/tool/material/brass" },
+			"material": { "base": "game:block/metal/plate/{material}" }
+		},
+		"*head*": {
+			"lattice": { "base": "game:block/machine/lattice" },
+			"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+			"headiron4": { "base": "game:block/metal/sheet/{material}4" },
+			"stainlesssteel1": { "base": "game:block/metal/sheet/stainlesssteel1" },
+			"aged": { "base": "game:block/wood/debarked/aged" },
+			"rope": { "base": "game:item/resource/rope" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*lock*": "helditemready",
+		"*head*": "holdbothhands",
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 32,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"clockworkers": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*head*": {
+			"rotation": {
+				"x": -31,
+				"y": 67,
+				"z": 180
+			},
+			"origin": {
+				"x": 0.19,
+				"y": -1.13,
+				"z": 0.32
+			},
+			"scale": 2.1
+		},
+		"*lock*": {
+			"translation": {
+				"x": 4,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 20,
+				"y": -10,
+				"z": -154
+			},
+			"origin": {
+				"x": 0.52,
+				"y": 0.12,
+				"z": 0.48
+			},
+			"scaleXyz": {
+				"x": -6,
+				"y": 6,
+				"z": 6
+			}
+		},
+		"*lever*": {
+			"rotation": {
+				"x": -43,
+				"y": -42,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.19,
+				"y": 0.47,
+				"z": 0.12
+			},
+			"scale": 2.53
+		}
+	},
+	"tpHandTransform": {
+		"*head*": {
+			"translation": {
+				"x": -1,
+				"y": -0.1,
+				"z": -2.5
+			},
+			"rotation": {
+				"x": -54,
+				"y": -60,
+				"z": 18
+			},
+			"scale": 0.53
+		}
+	}
+}	
+
+

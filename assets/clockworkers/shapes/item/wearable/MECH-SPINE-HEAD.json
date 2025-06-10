@@ -1,0 +1,560 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/RESTORED EIDOLON /hip-inside/upperlegL/upperlegL-plate1/SaddleBagL2,Root/SADDLEBAG R,Root/RESTORED EIDOLON /hip-inside/chest-inside/chest-plateR,Root/SADDLEBAG L,Root/origin/hip-inside/chest-inside/heart,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack,Root/HAT PIVOT/detail PIVOT,Root/SPINE - HEAD,Root/RESTORED EIDOLON /hip-inside/chest-inside/chest-plateL,Root/RESTORED EIDOLON /hip-inside/chest-inside/upper-armR/lower-armR/wristR/hammer-shaft1/hammer-shaft2/hammer-shaft3/Layer_0_middle,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/TEMPGEAR3,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/TEMPGEAR2,Root/floor3,Root/floor2,Root/origin/hip-inside/chest-inside/Origin,Root/Origin/LowerTorso/UpperTorso/UpperArmRHelper,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/knot21/wicker POT ORIGIN/POT ROPE STATIC2/RopeE3,Root/saddle lol/BlanketFBACK,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/knot21/wicker POT ORIGIN/POT ROPE STATIC2/RopeE6,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-tassetL/waist-tassetL BOX 2/SPARE GEAR 2,Root/wicker POT ORIGIN/POT ROPE ROTATE,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2,Root/RESTORED EIDOLON 2/hip-inside2/chest-inside2/heart2,Root/SPINE HEAD 2,Root/origin cask/Floor3/Floor5,Root/origin cask/Floor3/Floor6,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/RimMover,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/BottomFold/Cube3,Root/RESTORED EIDOLON /hip-inside/chest-inside/upper-armR/lower-armR/wristR/thumbR1,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 3/SPINE BAG 1/BAG knot 1,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/SPARE GEAR 2,Root/origin lil shield,Root/origin/mount,Root/GEARBOXMOVER/Gear2p6x18d5,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/SPARE GEAR 1,Root/origin cask/origin ring 6/ring4,Root/origin cask/origin ring 6/ring7,Root/saddle lol/BlanketFrontN,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 3/SPINE BAG 1/backpack norm 2,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side12/top side16,Root/MUG origin,Root/origin cask/origin ring 6/ring1,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 3/SPINE BAG 1/backpack norm 1,Root/CookingPotBody/wicker1/wicker2,Root/origin/origin handle W,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON,Root/origin cask/origin ring 6,Root/origin/hip-inside/chest-inside/upper-armR/lower-armR/wristR,Root/origin3/Floor3/barrel plank 11,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/POT FOR MECH,Root/HAT PIVOT,Root/origin upper ring,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair/Chair 2,Root/origin/origin handle E,Root/origin/hip-inside/chest-inside/upper-armR/lower-armR/bracerR,Root/MECH SADDLEBAG L2/FlapTop7,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side12,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME9/PLUME10/PLUME11/PLUME12/PLUME13/PLUME FLUFF 13,Root/origin cask/Cask 1,Root/BasePlate,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack 4,Root/HUB/PGearE1,Root/origin/hip-inside/upperlegR/lowerlegR/footR,Root/S  BAG 2 R,Root/origin cask/Cask 1/Floor6,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/RailingPost1,Root/glove 3,Root/glove 1,Root/StrawBedBody,Root/S  BAG 2 L,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side12/top side13,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/SEAT lever R,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2 -3/Shoulder Banner2 -4,Root/M LANTERN,Root/Origin,Root/GEARBOXMOVER/Gear2p6x18d,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack 3,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack 1,Root/GEARBOXMOVER/GearboxBottom,Root/HAT PIVOT/PLUME WORLD ANCHOR,Root/VANILLA EIDOLON/hip-inside/chest-inside/spine7,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/RimMover/Quadrant4-6,Root/origin cask,Root/RESTORED EIDOLON /hip-inside/SEAT,Root/origin3/barrel plank 15,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/mouth,Root/root,Root/origin3/barrel plank 19,Root/origin/hip-inside/upperlegL,Root/MECH BLANKET 1 -1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/bracerL/origin lil shield,Root/M LANTERN/knot,Root/BlanketFrontN,Root/origin/hip-inside/upperlegR,Root/origin cask/Cask 1/barrel plank 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 2/BEDROLL FOR MECH,Root/HUB2/RIMHUB3/ArmEW2,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/Guide line4,Root/origin/hip-inside/chest-inside/head-inside/Eye-bracket,Root/RimMover/Quadrant7-9,Root/WOMAN FOR SCALE,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2 -1/Shoulder Banner2 -2/Shoulder Banner 2 -3/BottomFold11,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2 -1/Shoulder Banner2 -2/Shoulder Banner 2 -3/BottomFold10,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back4/knot15,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/Chair 19,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side9,Root/origin/floor,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/Chair 15,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side8,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine4/spine5,Root/backpack 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2/Shoulder Banner2 -1/Shoulder Banner 2 -2,Root/backpack 2,Root/origin/WOOD,Root/origin cask/Floor3/Floor4/barrel plank 27,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/BEDROLL FOR MECH,Root/saddle lol/ORIGINbridle,Root/TEMPGEAR,Root/GEARBOXMOVER/Gear2x22p5,Root/saddle lol/SaddleBackN,Root/VANILLA EIDOLON/hip-inside/chainskirt-front1,Root/GEARBOXMOVER/Gear1p6x30a6,Root/GEARBOXMOVER/Gear1p6x30a3,Root/origin cask/Floor3/Floor4/barrel plank 23,Root/ArmorCoatR,Root/sidelow,Root/ArmorCoatL,Root/BlanketHUMPN,Root/origin3/NW3,Root/origin/hip-inside/chest-inside/head-inside/hood-top,Root/ArmorLowerLegL,Root/GEARBOXMOVER/Gear2p6x18d10,Root/Origin/LowerTorso/UpperTorso/hideme,Root/HUB2/RIMHUB3/ArmNS2,Root/ArmorLowerLegR,Root/origin cask/Cask 1/origin ring 6,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Cube33,Root/HUB/PGearS1,Root/origin cask/Floor3/Floor4/barrel plank 31,Root/RESTORED EIDOLON 2/hip-inside2/chest-inside2/upperarmL2,Root/wicker POT ORIGIN/POT ROPE STATIC,Root/wicker POT ORIGIN,Root/wicker POT ORIGIN/Rope STATIC,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME9/PLUME FLUFF 9,Root/SPINE - CASK/Cask 1/Floor6,Root/origin cask/origin ring 6/ring13/ring19/ring22,Root/MECH BLANKET 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine4,Root/MECH BLANKET 2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 4/SPINE BAG 2/BAG knot 2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook9/backpack,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME FLUFF 7,Root/RESTORED EIDOLON /hip-inside/SEAT/LowerTorso,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/POT FOR MECH2/wicker POT ORIGIN2/POT ROPE ROTATE2/wicker POT2/wicker9,Root/RESTORED EIDOLON /hip-inside/chest-inside/hood-back3,Root/RESTORED EIDOLON /hip-inside/chest-inside/LowerTorso,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/LEFT WING ORIGIN21/LEFT WING ORIGIN22/LEFT WING ORIGIN23/LEFT WING ORIGIN24/LEFT WING ORIGIN25/LEFT WING ORIGIN47,Root/origin cask/Floor3/Floor4/barrel plank 19,Root/SaddleBackN,Root/backpack N,Root/VANILLA EIDOLON/hip-inside/upperlegL,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine4/spine-hook8,Root/RESTORED EIDOLON /hip-inside/SEAT/SEAT LEVER L,Root/SPINE - POT,Root/BEDROLL FOR MECH,Root/backpack 3,Root/saddle lol/ORIGIN/ORIGINSaddleBags/SaddleBagL,Root/origin/origin ring 2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/knot15,Root/HUB/PGearN1,Root/RimMover/PlankUp2a,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/wristL/RimMover,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME FLUFF 6,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/SEAT lever R/LeverPIVOT2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/crane-iron2,Root/BlanketFBACK,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair/RailingPost1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner1- 1,Root/RESTORED EIDOLON /hip-inside/chainskirt-back1,Root/RimMover/PlankUp1a,Root/RESTORED EIDOLON /hip-inside/hip-tassetL/knot,Root/WaistW,Root/RimMover/Quadrant4-6,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/UpperArmR,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME FLUFF 2,Root/backpack S2/base5,Root/Shoulder Banner1 -1,Root/Shoulder Banner2 -1,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT,Root/SPINE - CASK/Cask 1/origin ring 6,Root/MECH SPARE GEAR 1,Root/base ,Root/SPINE - BAG L2,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back6/WAIST LOCK R1/WAIST LOCK R2/Padlock TOP 1/Padlock TOP 2/Padlock TOP 3/Padlock TOP 4/Padlock TOP 5,Root/origin/hip-inside/chest-inside/upper-armR/lower-armR,Root/origin3/Floor3/barrel plank 35,Root/RimMover,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME FLUFF 3,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5,Root/origin3/Floor3/barrel plank 3,Root/origin cask/Floor3/barrel plank 7,Root/Hair,Root/MECH SADDLEBAG L/FlapTop2,Root/SPINE - CASK,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/POT PIVOT,Root/Layer_1shoulder,Root/SPINE - BAG L,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME FLUFF 5,Root/MECH SPARE GEAR 2,Root/RESTORED EIDOLON 2/hip-inside2/chest-inside2/Origin2,Root/origin/origin ring 1,Root/Flange,Root/SPINE - BAG R,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3,Root/origin cask/Cask 1/barrel plank 13,Root/RESTORED EIDOLON /hip-inside/bar-legs,Root/RESTORED EIDOLON /hip-inside/chest-inside/upper-armR/lower-armR/wristR,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/knot24,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/origin,Root/RESTORED EIDOLON /hip-inside/upperlegL/upperlegL-plate1/SaddleBagL,Root/origin3/origin ring 5,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/R eye,Root/origin3/origin ring 6,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/knot21,Root/RESTORED EIDOLON /hip-inside/waist-fauld/TEMPGEAR4,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/BAG MECH 2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack/SideBottomPockets,Root/origin2,Root/GEARBOXMOVER/Gear3x22p5a2,Root/ORIGINsaddlebags/SaddleBagL,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/L eye2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/BAG MECH 1,Root/RESTORED EIDOLON /hip-inside/upperlegR/upperleg-plateR1/SaddleBagL2,Root/MECH SADDLEBAG L2/SaddleBagL7,Root/hidefacialhair,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/LeverHub17,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/TEMPGEAR,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/BEDROLL FOR MECH2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook9/floor,Root/ArmorUpperArmR,Root/MECH SADDLEBAG L2/SaddleBagL2,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/SEAT LAVER R 2,Root/ArmorUpperArmL,Root/origin/hip-inside/chest-inside/chest-plateL,Root/eyesroot,Root/HUB/ArmEW,Root/origin cask/origin ring 6/ring13/ring19,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair 2,Root/hammer-shaft1,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/TEMPGEAR2/TempGearCenter3/TGTOOTHMOVER4,Root/BasePlate/LeverHub62,Root/backpack v2,Root/origin/hip-inside/chest-inside/upperarmL,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/SEAT LEVER L,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/SEAT LEVER R,Root/BigGearHub3,Root/RESTORED EIDOLON /hip-inside/waist-fauld,Root/BasePlate/RailingPost1,Root/RESTORED EIDOLON ,Root/VANILLA EIDOLON/hip-inside/waist-fauld,Root/RimMover/PlankCenterS,Root/MECH SADDLEBAG L3,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side2,Root/MECH SADDLEBAG L2,Root/hammer,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/LEFT WING ORIGIN21/LEFT WING ORIGIN22/LEFT WING ORIGIN23/LEFT WING ORIGIN24/LEFT WING ORIGIN25/LEFT WING ORIGIN47/LEFT WING ORIGIN53,Root/origin3/Floor4/barrel plank 3,Root/Helmet pivot shoulder,Root/knot,Root/liquidMOVER,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2 -3,Root/origin3/Floor4/barrel plank 7,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME9/PLUME10/PLUME11/PLUME12/PLUME13/PLUME14/PLUME FLUFF 14,Root/origin/hip-inside/upperlegR/lowerlegR,Root/RimMover/Quadrant1-3,Root/HUB/RIMHUB/ArmNS,Root/SPINE - BAG R2,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/bracerL/origin lil shield/WOOD/handle,Root/origin Forlorn estoc/handle,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/BottomFold7,Root/WORLD PIVOT/LowerTorso,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/BottomFold8,Root/backpack S2,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/BottomFold9,Root/RESTORED EIDOLON /hip-inside/chainskirt-front1,Root/floor,Root/WORLD PIVOT/HAT ORIGIN,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner2 -1,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 1/POT FOR MECH,Root/SPINE - CASK/Cask 1/barrel plank 13,Root/origin3/barrel plank 3,Root/backpack,Root/origin cask/Floor3/Floor6/barrel plank 13,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME9/PLUME10/PLUME11/PLUME FLUFF 11,Root/LowerTorso,Root/MECH SADDLEBAG R3,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7,Root/HUB/PGearW1,Root/RESTORED EIDOLON /hip-inside/SEAT/heart,Root/SaddleFrontN,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/crane-iron1/Crane2/Crane9/Crane11/Crane13/spine-rope Pivot2,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/R eyebrow 1,Root/HUB/RIMHUB/Rim3,Root/HUB/RIMHUB/Rim4,Root/BasePlate/LeverHub17,Root/HUB/RIMHUB/Rim1,Root/HUB/RIMHUB/Rim2,Root/saddle lol/ORIGIN,Root/HUB/RIMHUB/Rim7,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/hammer,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/LEFT WING ORIGIN21,Root/HUB/RIMHUB/Rim8,Root/HUB/RIMHUB/Rim5,Root/HUB/RIMHUB/Rim6,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/LeverHub18/LeverPIVOT4,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair BASE/Chair 6,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/crane-iron1/Crane2/Crane9/Crane11/Crane13/spine-rope Pivot4,Root/SPARE GEAR 1,Root/SPARE GEAR 2,Root/SPINE - MECHHEAD,Root/SPINE MECHHEAD,Root/tierbronz2,Root/HUB2/RIMHUB3/RIMHUB4,Root/Canvas3,Root/Layer_5top,Root/VANILLA EIDOLON/hip-inside/chainskirt-back1,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/TEMPGEAR4,Root/Canvas2,Root/Origin GLIDER CLOSED,Root/MECH SADDLEBAG R,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/SPINE - HEAD,Root/saddle lol/SaddleFrontN,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 4/SPINE BAG 2/backpack 4,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME FLUFF 8,Root/Origin/LowerTorso/UpperTorso/UpperArmLHelper,Root/Origin lid,Root/origin/hip-inside/chest-inside/upper-armR,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/wrench ,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/Chair/RailingPost80,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/shoulderL/Shoulder Banner1 -1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upper-armR/lower-armR/wristR/hammer-shaft1/hammer-shaft2/hammer-shaft3/Layer_2neck2,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back5/knot24/knot34/knot39,Root/HUB/RIMHUB/RIMHUB2,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-fauld part back4/knot2/knot12,Root/ArmorUpperTorso,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/floor,Root/chisel,Root/origin/METAL,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/floor3,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/floor2,Root/origin/lid,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/L eyebrow 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/SEAT LEVER L,Root/RESTORED EIDOLON 2,Root/RESTORED EIDOLON /hip-inside/hip-tassetL/SaddleBagL,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/RimMover/Quadrant1-3,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-tassetR/origin Forlorn estoc,Root/Cube33,Root/RESTORED EIDOLON /hip-inside/chest-inside/Origin,Root/Origin/LowerTorso/UpperTorso/Neck,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 3/SPINE BAG 1/backpack sturdy 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/bracerL/origin lil shield/METAL,Root/shoe R,Root/shoe L,Root/wicker POT ORIGIN/RopeE9,Root/Layer_0_middle,Root/RESTORED EIDOLON /hip-inside/chest-inside/upperarmL/lower-armL/wristL/palmL,Root/origin3/Floor4/barrel plank 19,Root/GEARBOXMOVER/GearboxWest,Root/HUB2/RIMHUB3/Rim18,Root/RESTORED EIDOLON 2/hip-inside2/chest-inside2/head-inside2/hood-top2,Root/HUB2/RIMHUB3/Rim17,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine4/spine5,Root/HUB2/RIMHUB3/Rim19,Root/RimMover/Quadrant10-12,Root/RESTORED EIDOLON 2/hip-inside2/chest-inside2/chest-plateL2,Root/S  BAG 1 R,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/TEMPGEAR,Root/WORLD PIVOT/backpack,Root/origin cask/NW3/origin ring 6,Root/Layer_4,Root/origin cask/NW3/origin ring 5,Root/SPINE - BEDROLL,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack/L pocket,Root/RESTORED EIDOLON /hip-inside/upperlegL/upperlegL-plate1,Root/saddle lol/BlanketHUMPN,Root/HUB/RIMHUB/ArmEW,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/POT FOR MECH2/wicker POT ORIGIN2/POT ROPE ROTATE2/wicker POT2/CookingPotBody2,Root/RESTORED EIDOLON /hip-inside/upperlegR/lowerlegR,Root/backpack N2,Root/Cube1,Root/RESTORED EIDOLON /hip-inside/hip-inside5,Root/HUB2/RIMHUB3/Rim24,Root/Cube2,Root/Cube3,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/heart,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/crane-iron1/Crane2/Crane9/Crane11/Crane13/HOOK Pivot3/spine-rope11/hook1,Root/MainShaftUpper,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME FLUFF 4,Root/SPINE - BAG L2/backpack sturdy 3,Root/HUB2/RIMHUB3/Rim21,Root/HAT PIVOT/detail PIVOT/detail 1/detail 80,Root/RESTORED EIDOLON /hip-inside/hip-tassetL/SaddleBagL2,Root/HUB2/RIMHUB3/Rim20,Root/HUB2/RIMHUB3/Rim23,Root/HUB2/RIMHUB3/Rim22,Root/BottomFold3,Root/GEARBOXMOVER/Gear1p6x30a,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME PLATE,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/TEMPGEAR2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 4/SPINE BAG 2/backpack sturdy 2,Root/BottomFold2,Root/SPINE - CASK/Cask 1/MUG origin/Cube4,Root/body,Root/CLAIM LOCK L,Root/origin/hip-inside/waist-fauld,Root/CLAIM LOCK R,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/HAT ORIGIN/front tip pivot/top side/top side4/top side5/top side6/top side7/top side12/top side13/top side14,Root/Helmet pivot spine,Root/RESTORED EIDOLON /hip-inside/chest-inside/head-inside/brain,Root/hidehat,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME SKELLETON/PLUME2/PLUME3/PLUME4/PLUME5/PLUME6/PLUME7/PLUME8/PLUME9/PLUME10/PLUME11/PLUME12/PLUME FLUFF 12,Root/RESTORED EIDOLON /hip-inside/waist-fauld/waist-tassetL/waist-tassetL BOX 1/SPARE GEAR 1,Root/M BAG 1 L,Root/origin cask/Floor3,Root/origin cask/Floor4,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/Spine BOX 4/SPINE BAG 2/backpack norm 2,Root/RimMover/PlankDn2a,Root/ORIGINbridle,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/BEDROLL PIVOT,Root/ArmorLowerArmR,Root/M BLANKET 2,Root/M BLANKET 1,Root/origin/METAL/EDGE,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/LowerTorso/UpperTorso/Neck/Head/WORLD PIVOT/PLUME WORLD ANCHOR,Root/ORIGIN2,Root/RESTORED EIDOLON /hip-inside/chest-inside/SEAT/TEMPGEAR2/TempGearCenter3/TGRIMMOVER2,Root/ArmorLowerArmL,Root/RimMover/PlankDn1a,Root/HUB2,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/spine-hook1/backpack/R pocket,Root/RESTORED EIDOLON /hip-inside/chest-inside/BasePlate/LeverHub17/LeverPIVOT2/LeverShaft21/Spur23,Root/RESTORED EIDOLON /hip-inside/chest-inside/spine1/CASK FOR MECH 1,Root/RESTORED EIDOLON /hip-inside/chest-inside/upper-armR/lower-armR/bracerR/origin lil shield,Root/RESTORED EIDOLON /hip-inside/upperlegL,Root/wicker POT/wicker2,Root/RESTORED EIDOLON /hip-inside/upperlegR",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"skin1": [64,68],
+		"seraph": [64,64],
+		"blackbronze": [16,16],
+		"metal": [16,16],
+		"wood": [16,16],
+		"handle": [16,16],
+		"tobias": [48,48],
+		"quartz": [16,16],
+		"iron": [16,16],
+		"yellow": [48,48],
+		"hat": [16,16],
+		"backpack": [16,16],
+		"glider": [40,40],
+		"green": [16,16],
+		"plain": [16,16],
+		"birch": [16,16],
+		"med-pattern": [12,12],
+		"acacia": [16,16],
+		"leather": [16,16],
+		"bearbrown2": [96,96],
+		"blanket": [16,24],
+		"forlorn": [16,24],
+		"alchemist": [16,24],
+		"azure-embroidered": [16,24],
+		"blackguard": [16,24],
+		"chateau": [16,24],
+		"commoner": [16,24],
+		"deepnoble": [16,24],
+		"earthtone": [16,24],
+		"fancygreen": [16,24],
+		"herder": [16,24],
+		"hide": [16,24],
+		"king": [16,24],
+		"lackey": [16,24],
+		"merchant": [16,24],
+		"messenger": [16,24],
+		"plaidblue": [16,24],
+		"plaincloth": [16,24],
+		"prince": [16,24],
+		"squire": [16,24],
+		"survivor": [16,24],
+		"wool": [16,24],
+		"hair": [48,48],
+		"mossgreen": [48,48],
+		"wintergreendream": [48,48],
+		"skin3": [64,64],
+		"breeches": [64,64],
+		"white": [16,16],
+		"red5": [16,16],
+		"brown": [16,16],
+		"red6": [16,16],
+		"purple": [16,16],
+		"purple2": [16,16],
+		"pink": [16,16],
+		"red7": [16,16],
+		"red8": [16,16],
+		"purple3": [16,16],
+		"red9": [16,16],
+		"red10": [16,16],
+		"purple4": [16,16],
+		"purple5": [16,16],
+		"purple6": [16,16],
+		"red11": [16,16],
+		"purple7": [16,16],
+		"red12": [16,16],
+		"red13": [16,16],
+		"red14": [16,16],
+		"red15": [16,16],
+		"orange": [16,16],
+		"yellow2": [16,16],
+		"orange2": [16,16],
+		"orange3": [16,16],
+		"orange4": [16,16],
+		"orange5": [16,16],
+		"purple8": [16,16],
+		"red16": [16,16],
+		"red17": [16,16],
+		"red18": [16,16],
+		"red19": [16,16],
+		"beige": [16,16],
+		"red20": [16,16],
+		"red21": [16,16],
+		"purple9": [16,16],
+		"red22": [16,16],
+		"red23": [16,16],
+		"red24": [16,16],
+		"purple10": [16,16],
+		"grey": [16,16],
+		"brown2": [16,16],
+		"mordant": [16,16],
+		"brown3": [16,16],
+		"red25": [16,16],
+		"darkbrown": [16,16],
+		"red26": [16,16],
+		"purple11": [16,16],
+		"yellow3": [16,16],
+		"yellow4": [16,16],
+		"orange6": [16,16],
+		"belt": [16,16],
+		"shoes": [16,28],
+		"gloves1": [16,16],
+		"white-wooden-mask": [16,16],
+		"steel2": [16,16],
+		"steel3": [64,64],
+		"steel4": [64,64],
+		"steel5": [64,64],
+		"steel6": [64,64],
+		"steel7": [64,64],
+		"steel8": [64,64],
+		"steel9": [64,64],
+		"steel10": [64,64],
+		"steel11": [64,64],
+		"steel12": [64,64],
+		"steel13": [64,64],
+		"steel14": [64,64],
+		"alchemist fixed": [16,24],
+		"king fixed - Copy": [16,24],
+		"steel": [16,16],
+		"bismuthbronze": [16,16],
+		"steel17": [16,16],
+		"steel18": [16,16],
+		"steel19": [16,16],
+		"steel20": [16,16],
+		"steel21": [16,16],
+		"steel22": [16,16],
+		"aged": [16,16],
+		"rope": [16,16],
+		"leather2": [16,16],
+		"leather8": [16,16],
+		"straps": [16,16]
+	},
+	"textures": {
+		"lattice": "block/machine/lattice",
+		"rustyglow": "block/machine/statictranslocator/rustyglow",
+		"iron4": "block/metal/sheet/iron4",
+		"stainlesssteel1": "block/metal/sheet/stainlesssteel1",
+		"aged": "block/wood/debarked/aged",
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "SPINE - HEAD",
+			"stepParentName": "spine1",
+			"from": [ 2.0, -21.75, -1.05 ],
+			"to": [ 6.425, -17.5, 3.45 ],
+			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+			"rotationX": -20.5,
+			"rotationY": 165.5,
+			"rotationZ": -25.5,
+			"faces": {
+				"north": { "texture": "#lattice", "uv": [ 8.0, 0.0, 14.5, 6.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
+				"east": { "texture": "#lattice", "uv": [ 2.0, 2.0, 8.5, 8.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
+				"south": { "texture": "#lattice", "uv": [ 2.0, 6.0, 8.5, 12.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
+				"up": { "texture": "#lattice", "uv": [ 0.0, 0.0, 6.5, 6.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "head-R2",
+					"from": [ -0.75, 0.0, -0.825 ],
+					"to": [ 4.5, 5.25, -0.075 ],
+					"rotationOrigin": [ 2.25, 1.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#aged", "uv": [ 7.5, 4.5, 14.5, 11.5 ], "autoUv": false },
+						"south": { "texture": "#aged", "uv": [ 0.0, 0.0, 7.0, 7.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
+						"west": { "texture": "#aged", "uv": [ 7.5, 3.5, 8.5, 10.5 ], "autoUv": false },
+						"up": { "texture": "#aged", "uv": [ 0.0, 12.5, 7.0, 13.5 ], "autoUv": false },
+						"down": { "texture": "#aged", "uv": [ 7.0, 14.5, 14.0, 15.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "head-L2",
+					"from": [ -0.75, 0.0, 4.575 ],
+					"to": [ 4.5, 5.25, 5.325 ],
+					"rotationOrigin": [ 2.25, 1.5, 4.5 ],
+					"faces": {
+						"north": { "texture": "#aged", "uv": [ 0.0, 0.0, 7.0, 7.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
+						"south": { "texture": "#aged", "uv": [ 8.0, 3.0, 15.0, 10.0 ], "autoUv": false },
+						"west": { "texture": "#aged", "uv": [ 10.5, 1.0, 11.5, 8.0 ], "autoUv": false },
+						"up": { "texture": "#aged", "uv": [ 7.0, 12.0, 14.0, 13.0 ], "autoUv": false },
+						"down": { "texture": "#aged", "uv": [ 9.0, 0.5, 16.0, 1.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "head-back2",
+					"from": [ 4.5, 0.0, -0.75 ],
+					"to": [ 5.25, 5.25, 5.25 ],
+					"rotationOrigin": [ 4.5, 0.0, 2.25 ],
+					"faces": {
+						"north": { "texture": "#aged", "uv": [ 10.0, 6.5, 11.0, 13.5 ], "autoUv": false },
+						"east": { "texture": "#aged", "uv": [ 1.0, 6.0, 9.0, 13.0 ], "autoUv": false },
+						"south": { "texture": "#aged", "uv": [ 12.0, 0.0, 13.0, 7.0 ], "autoUv": false },
+						"west": { "texture": "#aged", "uv": [ 1.5, 9.0, 9.5, 16.0 ], "autoUv": false },
+						"down": { "texture": "#aged", "uv": [ 8.5, 4.5, 9.5, 12.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "hood-top2",
+					"from": [ -2.25, 5.25, -0.75 ],
+					"to": [ 5.25, 6.75, 5.25 ],
+					"rotationOrigin": [ 1.5, 5.25, 2.25 ],
+					"faces": {
+						"north": { "texture": "#iron4", "uv": [ 5.0, 1.0, 15.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#iron4", "uv": [ 0.0, 8.0, 8.0, 10.0 ], "autoUv": false },
+						"south": { "texture": "#iron4", "uv": [ 1.0, 8.0, 11.0, 10.0 ], "autoUv": false },
+						"west": { "texture": "#iron4", "uv": [ 4.0, 14.0, 12.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#iron4", "uv": [ 4.0, 4.5, 12.0, 14.5 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#iron4", "uv": [ 3.0, 4.0, 13.0, 12.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "hood-back5",
+							"from": [ 6.825, -5.55, 0.0 ],
+							"to": [ 7.575, 1.2, 6.0 ],
+							"rotationOrigin": [ 6.825, 1.2, 3.0 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 5.5, 1.5, 6.5, 10.5 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 7.0, 5.5, 15.0, 14.5 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 7.5, 6.0, 8.5, 15.0 ], "autoUv": false },
+								"down": { "texture": "#iron4", "uv": [ 8.0, 7.0, 9.0, 15.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-back6",
+							"from": [ 7.275, -6.85, 0.0 ],
+							"to": [ 8.025, 1.4, 6.0 ],
+							"rotationOrigin": [ 7.275, -1.8, 3.0 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 13.5, 1.5, 14.5, 12.5 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 3.0, 0.5, 11.0, 11.5 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 11.0, 4.5, 12.0, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+								"west": { "texture": "#iron4", "uv": [ 6.0, 0.0, 14.0, 11.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+								"down": { "texture": "#iron4", "uv": [ 5.5, 7.0, 6.5, 15.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-L3",
+							"from": [ 0.375, -5.55, 5.25 ],
+							"to": [ 7.5, 1.2, 6.0 ],
+							"rotationOrigin": [ 4.125, 1.2, 5.25 ],
+							"rotationX": -22.5,
+							"faces": {
+								"east": { "texture": "#iron4", "uv": [ 0.0, 2.5, 1.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 3.5, 7.0, 12.5, 16.0 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 15.0, 7.0, 16.0, 16.0 ], "autoUv": false },
+								"down": { "texture": "#iron4", "uv": [ 1.0, 16.0, 15.0, 15.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-R3",
+							"from": [ 0.375, -5.55, 0.0 ],
+							"to": [ 7.5, 1.2, 0.75 ],
+							"rotationOrigin": [ 4.125, 1.2, 0.75 ],
+							"rotationX": 22.5,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 3.5, 7.0, 12.5, 16.0 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 15.0, 7.0, 16.0, 16.0 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 0.0, 7.0, 1.0, 16.0 ], "autoUv": false },
+								"down": { "texture": "#iron4", "uv": [ 0.0, 4.0, 9.5, 5.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-L4",
+							"from": [ 0.375, -6.85, 5.7 ],
+							"to": [ 7.5, 1.4, 6.45 ],
+							"rotationOrigin": [ 4.125, -1.8, 5.7 ],
+							"rotationX": -22.5,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 4.5, 4.5, 14.0, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+								"east": { "texture": "#iron4", "uv": [ 15.0, 5.0, 16.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 4.0, 4.5, 13.5, 15.5 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 0.0, 0.0, 11.0, 1.0 ], "rotation": 270, "autoUv": false },
+								"up": { "texture": "#iron4", "uv": [ 4.0, 13.0, 13.5, 14.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#iron4", "uv": [ 0.5, 14.0, 10.0, 15.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-R4",
+							"from": [ 0.375, -6.85, -0.45 ],
+							"to": [ 7.5, 1.4, 0.3 ],
+							"rotationOrigin": [ 4.125, -1.8, 0.3 ],
+							"rotationX": 22.5,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 3.5, 5.0, 12.5, 16.0 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 0.0, 5.0, 1.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 3.5, 2.5, 13.0, 13.5 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 5.0, 0.0, 16.0, 1.0 ], "rotation": 90, "autoUv": false },
+								"up": { "texture": "#iron4", "uv": [ 2.0, 7.0, 11.5, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#iron4", "uv": [ 3.0, 7.5, 12.5, 8.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-cornerL2",
+							"from": [ 7.125, -6.28, 7.125 ],
+							"to": [ 10.125, -0.28, 7.875 ],
+							"rotationOrigin": [ 8.625, -7.875, 7.125 ],
+							"rotationX": -22.5,
+							"rotationY": -135.0,
+							"rotationZ": -17.0,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 6.0, 0.0, 10.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 4.5, 0.5, 5.5, 8.5 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 0.5, 3.5, 4.5, 11.5 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 11.0, 1.5, 12.0, 9.5 ], "autoUv": false },
+								"down": { "texture": "#iron4", "uv": [ 11.5, 3.0, 15.5, 4.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood-cornerR2",
+							"from": [ 7.125, -6.28, -1.125 ],
+							"to": [ 10.125, -0.28, -0.375 ],
+							"rotationOrigin": [ 8.625, -7.875, -1.125 ],
+							"rotationX": 22.5,
+							"rotationY": -45.0,
+							"rotationZ": 17.0,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 2.5, 0.5, 6.5, 8.5 ], "autoUv": false },
+								"east": { "texture": "#iron4", "uv": [ 7.0, 5.5, 8.0, 13.5 ], "autoUv": false },
+								"south": { "texture": "#iron4", "uv": [ 4.5, 6.5, 8.5, 14.5 ], "autoUv": false },
+								"west": { "texture": "#iron4", "uv": [ 12.0, 0.0, 13.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#iron4", "uv": [ 2.0, 7.0, 6.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "hood hook",
+							"from": [ 3.0, 1.5, 4.5 ],
+							"to": [ 3.5, 2.5, 5.5 ],
+							"rotationOrigin": [ 3.0, 1.5, 4.5 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 9.0, 5.5, 9.5, 6.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#iron4", "uv": [ 9.5, 7.5, 10.5, 8.5 ] },
+								"up": { "texture": "#iron4", "uv": [ 7.5, 6.0, 8.0, 7.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "hood hook2",
+							"from": [ 1.0, 1.5, 4.5 ],
+							"to": [ 1.5, 2.5, 5.5 ],
+							"rotationOrigin": [ 1.0, 1.5, 4.5 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 9.5, 6.0, 10.0, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#iron4", "uv": [ 7.5, 7.0, 8.5, 8.0 ] },
+								"up": { "texture": "#iron4", "uv": [ 6.5, 9.0, 7.0, 10.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "hood hook4",
+							"from": [ 3.49, 1.9, 4.95 ],
+							"to": [ 4.09, 4.38, 5.45 ],
+							"rotationOrigin": [ 3.49, 1.9, 4.95 ],
+							"rotationZ": 90.0,
+							"faces": {
+								"north": { "texture": "#iron4", "uv": [ 9.0, 5.5, 9.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#iron4", "uv": [ 6.0, 7.5, 6.5, 9.5 ] },
+								"south": { "texture": "#iron4", "uv": [ 7.0, 9.0, 7.5, 11.0 ] },
+								"up": { "texture": "#iron4", "uv": [ 5.0, 3.0, 5.5, 3.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#iron4", "uv": [ 7.5, 8.5, 8.0, 9.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "faceplate-chin2",
+					"from": [ -1.95, -0.7, -0.525 ],
+					"to": [ -0.7, 0.3, 5.1 ],
+					"rotationOrigin": [ -1.875, 1.5, 2.25 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#aged", "uv": [ 4.5, 2.5, 7.5, 5.0 ], "autoUv": false },
+						"east": { "texture": "#aged", "uv": [ 3.5, 5.5, 11.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [-1,-1,-1,-1] },
+						"south": { "texture": "#aged", "uv": [ 1.0, 8.5, 4.0, 11.0 ], "autoUv": false },
+						"west": { "texture": "#aged", "uv": [ 2.0, 4.5, 9.5, 7.0 ], "autoUv": false },
+						"up": { "texture": "#aged", "uv": [ 13.0, 0.5, 16.0, 8.0 ], "autoUv": false },
+						"down": { "texture": "#aged", "uv": [ 2.0, 7.0, 5.0, 14.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Eye-bracket3",
+					"from": [ -2.625, 1.125, 1.125 ],
+					"to": [ -1.5, 4.125, 3.375 ],
+					"rotationOrigin": [ -0.375, 2.625, 2.25 ],
+					"faces": {
+						"north": { "texture": "#stainlesssteel1", "uv": [ 3.0, 10.5, 4.5, 14.5 ], "autoUv": false },
+						"south": { "texture": "#stainlesssteel1", "uv": [ 6.5, 6.0, 8.0, 10.0 ], "autoUv": false },
+						"west": { "texture": "#stainlesssteel1", "uv": [ 7.5, 2.0, 10.5, 6.0 ], "autoUv": false },
+						"up": { "texture": "#stainlesssteel1", "uv": [ 9.0, 3.0, 10.5, 6.0 ], "autoUv": false },
+						"down": { "texture": "#stainlesssteel1", "uv": [ 5.0, 9.0, 6.5, 12.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Eye-out3",
+							"from": [ -0.375, 0.375, 0.375 ],
+							"to": [ 0.375, 2.625, 1.875 ],
+							"rotationOrigin": [ 0.0, 1.5, 1.125 ],
+							"faces": {
+								"north": { "texture": "#rustyglow", "uv": [ 1.5, 1.0, 2.5, 4.0 ], "glow": 200, "autoUv": false },
+								"south": { "texture": "#rustyglow", "uv": [ 8.0, 2.5, 9.0, 5.5 ], "glow": 200, "autoUv": false },
+								"west": { "texture": "#rustyglow", "uv": [ 1.5, 0.0, 3.5, 3.0 ], "glow": 200, "autoUv": false },
+								"up": { "texture": "#rustyglow", "uv": [ 7.5, 12.5, 8.5, 14.5 ], "glow": 200, "autoUv": false },
+								"down": { "texture": "#rustyglow", "uv": [ 4.0, 13.5, 5.0, 15.5 ], "glow": 200, "autoUv": false }
+							}
+						},
+						{
+							"name": "faceplate-L4",
+							"from": [ 0.9, -0.76, 1.125 ],
+							"to": [ 2.4, 4.115, 4.125 ],
+							"rotationOrigin": [ 0.9, 2.26, 3.375 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#aged", "uv": [ 5.5, 7.5, 6.5, 14.0 ], "autoUv": false },
+								"east": { "texture": "#aged", "uv": [ 3.5, 9.0, 8.0, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [-1,0,0,-1] },
+								"south": { "texture": "#aged", "uv": [ 0.5, 8.5, 1.5, 15.0 ], "autoUv": false },
+								"west": { "texture": "#aged", "uv": [ 3.5, 9.0, 7.5, 15.5 ], "autoUv": false },
+								"up": { "texture": "#aged", "uv": [ 0.5, 6.0, 1.5, 10.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#aged", "uv": [ 10.5, 3.5, 11.5, 7.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "faceplate-R4",
+							"from": [ 0.9, -0.75, -1.875 ],
+							"to": [ 2.4, 4.125, 1.125 ],
+							"rotationOrigin": [ 0.9, 2.25, -1.125 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#aged", "uv": [ 9.0, 7.0, 10.0, 13.5 ], "autoUv": false },
+								"east": { "texture": "#aged", "uv": [ 3.5, 9.0, 8.0, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [-1,0,0,-1] },
+								"south": { "texture": "#aged", "uv": [ 5.5, 8.0, 6.5, 14.5 ], "autoUv": false },
+								"west": { "texture": "#aged", "uv": [ 3.0, 1.0, 7.0, 7.5 ], "autoUv": false },
+								"up": { "texture": "#aged", "uv": [ 3.5, 11.5, 4.5, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#aged", "uv": [ 12.5, 3.5, 13.5, 7.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "spine head rope",
+					"from": [ 0.1, 9.7, 4.3 ],
+					"to": [ 0.6, 11.7, 4.8 ],
+					"rotationOrigin": [ 0.0, 9.7, 4.3 ],
+					"rotationX": 67.5,
+					"rotationY": 180.0,
+					"faces": {
+						"east": { "texture": "#rope", "uv": [ 8.5, 8.5, 9.0, 10.5 ] },
+						"south": { "texture": "#rope", "uv": [ 5.0, 4.5, 5.5, 6.5 ] },
+						"west": { "texture": "#rope", "uv": [ 6.0, 8.0, 6.5, 10.0 ] }
+					},
+					"children": [
+						{
+							"name": "knot31",
+							"from": [ 0.01, -0.5, 0.0 ],
+							"to": [ 0.51, 0.0, 0.5 ],
+							"rotationOrigin": [ 0.01, 0.0, 0.5 ],
+							"rotationX": 22.5,
+							"faces": {
+								"east": { "texture": "#rope", "uv": [ 9.5, 9.0, 10.0, 9.5 ] },
+								"south": { "texture": "#rope", "uv": [ 5.0, 6.5, 5.5, 7.0 ] },
+								"west": { "texture": "#rope", "uv": [ 6.5, 8.0, 7.0, 8.5 ] }
+							},
+							"children": [
+								{
+									"name": "knot32",
+									"from": [ 0.01, -2.5, 0.0 ],
+									"to": [ 0.51, 0.0, 0.5 ],
+									"rotationOrigin": [ 0.01, 0.0, 0.5 ],
+									"rotationX": 55.0,
+									"faces": {
+										"north": { "texture": "#rope", "uv": [ 5.5, 1.0, 6.0, 3.5 ] },
+										"east": { "texture": "#rope", "uv": [ 9.5, 6.5, 10.0, 9.0 ] },
+										"south": { "texture": "#rope", "uv": [ 4.0, 4.0, 4.5, 6.5 ] },
+										"west": { "texture": "#rope", "uv": [ 5.5, 7.5, 6.0, 10.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "knot43",
+							"from": [ -0.03, 2.3536, -1.3536 ],
+							"to": [ 0.47, 5.3536, -0.8536 ],
+							"rotationOrigin": [ -0.0261, 2.3536, -0.8536 ],
+							"rotationX": -152.0,
+							"faces": {
+								"north": { "texture": "#rope", "uv": [ 5.5, 1.0, 6.0, 4.0 ] },
+								"east": { "texture": "#rope", "uv": [ 9.5, 6.5, 10.0, 9.5 ] },
+								"south": { "texture": "#rope", "uv": [ 4.0, 4.0, 4.5, 7.0 ] },
+								"west": { "texture": "#rope", "uv": [ 2.0, 8.0, 2.5, 11.0 ] }
+							}
+						},
+						{
+							"name": "knot44",
+							"from": [ -0.02, 1.3536, -1.3536 ],
+							"to": [ 0.48, 2.3536, -0.8536 ],
+							"rotationOrigin": [ -0.02, 2.3536, -0.8536 ],
+							"rotationX": -90.0,
+							"faces": {
+								"east": { "texture": "#rope", "uv": [ 9.5, 6.5, 10.0, 7.5 ] },
+								"south": { "texture": "#rope", "uv": [ 4.0, 4.0, 4.5, 5.0 ] },
+								"west": { "texture": "#rope", "uv": [ 2.0, 8.0, 2.5, 9.0 ] }
+							},
+							"children": [
+								{
+									"name": "knot45",
+									"from": [ 0.01, -0.5, 0.0 ],
+									"to": [ 0.51, 0.0, 0.5 ],
+									"rotationOrigin": [ 0.01, 0.0, 0.5 ],
+									"rotationX": 45.0,
+									"faces": {
+										"east": { "texture": "#rope", "uv": [ 5.0, 6.5, 5.5, 7.0 ] },
+										"south": { "texture": "#rope", "uv": [ 7.0, 8.5, 7.5, 9.0 ] },
+										"west": { "texture": "#rope", "uv": [ 4.5, 10.0, 5.0, 10.5 ] },
+										"down": { "texture": "#rope", "uv": [ 5.5, 6.5, 6.0, 7.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "wicker POT ORIGIN2",
+							"from": [ -2.39, 0.06, -5.02 ],
+							"to": [ -2.39, 0.06, -5.02 ],
+							"rotationOrigin": [ 0.1053, -0.4428, -2.0242 ],
+							"rotationY": 90.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "POT ROPE STATIC5",
+									"from": [ 2.5, -1.45, 2.5 ],
+									"to": [ 3.5, -0.45, 3.5 ],
+									"rotationOrigin": [ 2.5009, -1.4491, 2.4957 ],
+									"rotationZ": 45.0,
+									"faces": {
+										"north": { "texture": "#rope", "uv": [ 1.0, 2.5, 2.0, 3.5 ] },
+										"east": { "texture": "#rope", "uv": [ 4.5, 3.5, 5.5, 4.5 ] },
+										"south": { "texture": "#rope", "uv": [ 6.0, 0.0, 7.0, 1.0 ] },
+										"west": { "texture": "#rope", "uv": [ 14.0, 0.0, 15.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#rope", "uv": [ 1.5, 12.0, 2.5, 13.0 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#rope", "uv": [ 14.0, 6.5, 15.0, 7.5 ], "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}
