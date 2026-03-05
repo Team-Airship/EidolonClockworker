@@ -16,7 +16,7 @@
 		"clockworkers": [ "*" ]
 	},
 	shape: { "base": "item/mechgantrymodel1item" },
-	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	guiTransform: {
 		translation: { x: 8, y: 4, z: 0 },
 		rotation: { x: -15, y: -99, z: 176 },

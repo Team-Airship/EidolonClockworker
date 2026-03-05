@@ -1,0 +1,709 @@
+{
+	"code": "eidolonmech",
+	"class": "EntityAgent",
+	"fallDamageMultiplierByType": { "*" :2.5},
+	"variantgroups": [
+		{"code": "wood","states": [ "aged" ]},
+		{"code": "plate","states": [ "iron" ]},
+		{"code": "bolts","states": [ "steel"]}
+	],
+	"hitBoxSizeByType": {
+		"*": {	"x": 1.5,"y": 3.5}
+	},
+	"deadhitBoxSizeByType": {
+		"*": {	"x": 1.5,"y": 1.5}
+	},
+	"eyeHeightByType": {
+		"*": 3.5
+	},
+	"weightByType": {
+		"*": 100
+	},
+	"knockbackResistanceByType": {
+		"*": 99
+	},
+	"attributes": {
+		"tamedByType": {"*": true },
+		"killedByInfoText": "deadcreature-killed",
+		"minGenerationToAllowHealing": 0
+		},
+		"handbook": {
+			"groupcode": "creaturegroup-mech"
+		},
+	
+	"behaviorConfigs": {
+		"controlledphysics": { 
+			"stepHeight": 1.1251,
+			"stepUpSpeed": 0.1
+		},
+		"floatupwhenstuck": { "onlyWhenDead": true },
+		"rideableaccessories": {
+			"wearableSlotsByType": {"*":[
+				{"code": "Chest hatch","forCategoryCodes": ["mechlock"],"attachmentPointcode": "lockRAP","stepParentTo": {"": { "elementName": "lockR" }}},
+				{"code": "Lantern hook","forCategoryCodes": ["lantern"],"attachmentPointcode": "lanternAP","stepParentTo": {"": { "elementName": "lantern" }}},
+				{"code": "Left thigh storage","forCategoryCodes": ["mechsbag"],"attachmentPointcode": "sbagLAP","stepParentTo": {"": { "elementName": "sbagL" }}},
+				{"code": "Right thigh storage","forCategoryCodes": ["mechsbag"],"attachmentPointcode": "sbagRAP","stepParentTo": {"": { "elementName": "sbagR" }}},
+				{"code": "Gear storage 1","forCategoryCodes": ["mechgear"],"attachmentPointcode": "gear1AP","stepParentTo": {"": { "elementName": "gear1" }}},
+				{"code": "Gear storage 2","forCategoryCodes": ["mechgear"],"attachmentPointcode": "gear2AP","stepParentTo": {"": { "elementName": "gear2" }}},
+				{"code": "Tool hanger","forCategoryCodes": ["mechtools"],"attachmentPointcode": "sheathAP","stepParentTo": {"": { "elementName": "sheath" }}},
+				{"code": "Left pauldron","forCategoryCodes": ["mechblanket"],"attachmentPointcode": "bannerAP","stepParentTo": {"": { "elementName": "banner" }}},
+				{"code": "Lantern hook","forCategoryCodes": ["shields"],"attachmentPointcode": "shieldhangerAP","stepParentTo": {"": { "elementName": "shieldhanger" }}},
+				{"code": "Pot storage","forCategoryCodes": ["utilities"],"attachmentPointcode": "spinebox1AP","stepParentTo": {"": { "elementName": "spinebox1" }}},
+				{"code": "Bedroll storage","forCategoryCodes": ["bedroll"],"attachmentPointcode": "spinebox2AP","stepParentTo": {"": { "elementName": "spinebox2" }}},
+				{"code": "Left backpack storage","forCategoryCodes": ["mechbackpack"],"attachmentPointcode": "spinebox3AP","stepParentTo": {"": { "elementName": "spinebox3" }}},
+				{"code": "Right backpack storage","forCategoryCodes": ["mechbackpack"],"attachmentPointcode": "spinebox4AP","stepParentTo": {"": { "elementName": "spinebox4" }}},
+				{"code": "Mech head storage","forCategoryCodes": ["mechhead"],"attachmentPointcode": "spinebox5AP","stepParentTo": {"": { "elementName": "spinebox5" }}},
+				{"code": "Barrel storage","forCategoryCodes": ["mechbarrel"],"attachmentPointcode": "spinebox6AP","stepParentTo": {"": { "elementName": "spinebox6" }}},
+				{"code": "Control seat","forCategoryCodes": [],"attachmentPointcode": "pilotAP","stepParentTo": {"": { "elementName": "pilot" }}}
+			                        ]}
+		},
+		"selectionboxes": {
+			"selectionBoxesByType": {
+				"*": [ "lockRAP", "lanternAP", "sbagLAP", "sbagRAP", "gear1AP", "gear2AP", "sheathAP", "bannerAP", "shieldhangerAP", "spinebox1AP", "spinebox2AP", "spinebox3AP", "spinebox4AP", "spinebox5AP", "spinebox6AP", "pilotAP" ]
+			}
+		},
+		"rideable": {
+			"interactMountAnySeat": false,
+			"seats": [
+				{ "apName": "Rider", "selectionBox": "pilotAP", "bodyYawLimit": 0.2, "controllable": true,
+					"mountOffsetByType": { "*": {"x":-0.0,"y":-0.0,"z":0}}}
+			],
+			"controls": {
+				"idle": {
+					"weight": 1,
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 0.00000001,
+						"weight": 1,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+					}
+				},
+				"swim": {
+					"animation": "Swim",
+					"animationSpeed": 0.8,
+					"movespeed": 0.02,
+					"weight": 10,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 1,	
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"walk": {
+					"animation": "stand-walk",
+					"weight": 10,
+						"movespeedByType": {
+							"*": 0.007
+						},
+						"animationSpeedByType": {
+							"*": 1
+						},
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 1,	
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"walkback": {
+					"animation": "stand-walk",
+					"weight": 10,
+						"movespeedByType": {
+							"*": 0.007
+						},
+						"animationSpeedByType": {
+							"*": 0.75
+						},
+					"easeInSpeed": 1,
+					"easeOutSpeed": 3,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 1,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"sprint": {
+					"animation": "stand-run",
+					"weight": 10,
+						"movespeedByType": {
+							"*": 0.056
+						},
+						"animationSpeedByType": {
+							"*": 6
+						},
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 2,
+						"weight": 1,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				},
+				"jump": {
+					"animation": "stand-slam",
+					"weight": 50,
+					"easeOutSpeed": 40,
+					"blendMode": "Average",
+					"animationSpeed": 1,
+					"movespeed": 0.08,
+					"riderAnim": {
+						"animation": "mechsit",
+						"animationSpeed": 1,
+						"weight": 10,
+						"withFpVariant": false,
+						"blendMode": "Average"
+					}
+				}
+			}
+		},
+		"health": {
+			"currenthealthByType": {
+					"*": 100
+			},
+			"maxhealthByType": {
+				"*": 100
+			}
+		},
+		"ownable": {
+			"groupCode": "mech"
+	},
+	"drops": [],
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+			"*": { "base": "entity/mechtest1" }
+		},
+		"textureByType": {
+			"*": {
+				"reedrope": { "base": "game:block/cloth/reedrope" },
+				"leather": { "base": "game:block/leather/chromium" },
+				"plain": { "base": "game:block/leather/plain" },
+				"red": { "base": "game:block/leather/red" },
+				"lattice": { "base": "game:block/machine/lattice" },
+				"rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+				"chain-steel": { "base": "game:block/metal/armor-generic/chain-steel" },
+				"tinbronze": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+				"iron1": { "base": "game:block/metal/sheet/{plate}1" },
+				"iron4": { "base": "game:block/metal/sheet/{plate}4" },
+				"stainlesssteel1": { "base": "game:block/metal/sheet/stainlesssteel1" },
+				"gold": { "base": "game:block/metal/tarnished/gold" },
+				"rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+				"aged": { "base": "game:block/wood/debarked/aged" },
+				"oak": { "base": "game:block/wood/oak" },
+				"wood": { "base": "game:block/wood/oak" },
+				"rope": { "base": "game:item/resource/rope" },
+				"temporalgear": { "base": "game:item/resource/temporalgear" },
+				"string": { "base": "game:item/tool/material/string" }
+			}
+		},
+		"sizeByType": {
+			"*": 1
+		},
+		"behaviors": [
+			{ "code": "mortallywoundable", "enabledByType": { "*": true}},
+			{"code": "repulseagents", "movable":  false},
+			{"code": "controlledphysics","stepHeight": 1.1251},
+			{"code": "floatupwhenstuck","onlyWhenDead": false},
+			{"code": "interpolateposition" },
+			{ "code": "selectionboxes", "enabledByType": {"*": true}},
+			{ "code": "ownable", "enabledByType": {"*": true}},
+			{ "code": "rideableaccessories", "enabledByType": {"*": true}},
+			{ "code": "rideable", "enabledByType": {"*": true}},
+			{"code": "ropetieable", "enabledByType": {"*": true}}
+		],
+		"animations": [
+			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
+			{"code": "charge","animation": "Charge","easeInSpeed": 10,"easeOutSpeed": 2,"animationSpeed": 2.2,"weight": 10,"blendMode": "Average"},
+			{"code": "die","animation": "Die","easeInSpeed": 3,"animationSpeed": 0.75,"weight": 10,"blendMode": "Average","triggeredBy": { "onControls": [ "dead" ] }},
+			{"code": "eat","animation": "Eat","easeInSpeed": 4,"easeOutSpeed": 4,"blendMode": "Average"},
+			{"code": "hurt","animation": "Hurt","animationSpeed": 2.2,"weight": 10,"blendMode": "AddAverage"},
+			{"code": "idle","animation": "Idle","animationSpeed": 0.5,"blendMode": "AddAverage","easeOutSpeed": 4,"triggeredBy": { "defaultAnim": true }},
+			{"code": "roar","animation": "Roar","animationSpeed": 2.2,"weight": 10,"blendMode": "AddAverage"},
+			{"code": "sit","animation": "Sit","easeInSpeed": 0.1,"easeOutSpeed": 0.5,"blendMode": "Average"},
+			{"code": "sleep","animation": "Sleep","easeInSpeed": 2,"easeOutSpeed": 2,"weight": 5,"blendMode": "Average"},
+			{"code": "swim","animation": "Swim","supressDefaultAnimation": true,"blendMode": "Average"},
+			{"code": "walk","animation": "Walk","easeInSpeed": 10,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{"code": "turn-left","animation": "turn-left","easeInSpeed": 3,"easeOutSpeed": 10,"weight": 0.01,"blendMode": "Average","elementWeight": {"Head": 80,"Neck": 80,"Neck2": 80},"elementBlendMode": {"Head": "AddAverage","Neck": "AddAverage","Neck2": "AddAverage"}},
+			{"code": "turn-right","animation": "turn-right","easeInSpeed": 3,"easeOutSpeed": 10,"weight": 0.01,"blendMode": "Average","elementWeight": {"Head": 80,"Neck": 80,"Neck2": 80},"elementBlendMode": {"Head": "AddAverage","Neck": "AddAverage","Neck2": "AddAverage"}},
+			{"code": "wounded-idle","animation": "wounded-idle","easeInSpeed": 3,"weight": 10,"blendMode": "Average"},
+			{"code": "wounded-resthead","animation": "wounded-resthead","easeInSpeed": 3,"weight": 10,"blendMode": "Average"},
+			{"code": "wounded-trystand","animation": "wounded-resthead","easeInSpeed": 3,"weight": 100,"blendMode": "Average"},
+			{"code": "wounded-look","animation": "wounded-look","easeInSpeed": 3,"weight": 100,"blendMode": "Average"},
+			{"code": "wounded-stand","animation": "wounded-stand","easeInSpeed": 3,"weight": 10,"blendMode": "Average"},
+			{"code": "dead","animation": "dead","easeInSpeed": 3,"weight": 10,"blendMode": "Average"},
+			{"code": "idle-turn-left","animation": "turn-left","easeInSpeed": 3,"easeOutSpeed": 10,"weight": 0.01,"blendMode": "Average","elementWeight": {"Head": 80,"Neck": 80,"Neck2": 80},"elementBlendMode": {"Head": "AddAverage","Neck": "AddAverage","Neck2": "AddAverage"}},
+			{"code": "idle-turn-right","animation": "turn-right","easeInSpeed": 3,"easeOutSpeed": 10,"weight": 0.01,"blendMode": "Average","elementWeight": {"Head": 80,"Neck": 80,"Neck2": 80},"elementBlendMode": {"Head": "AddAverage","Neck": "AddAverage","Neck2": "AddAverage"}}
+		]
+	},
+	"server": {
+		"attributes": {
+			"pathfinder": {
+				"minTurnAnglePerSec": 0,
+				"maxTurnAnglePerSecByType": { "*-adult-*": 90, "*-baby-*": 180}
+			}
+		},
+		"behaviors": [
+			{
+				"code": "mortallywoundable",
+				"whenBelowHealth": 10,
+				"enabledByType": {
+					"*-baby-*": false,
+					"*-palaeoloxodoncypriotes": false,
+					"*": false
+				},
+				"minGeneration": 2
+			},
+			{
+				"code": "selectionboxes",
+				"enabledByType": {
+					"*-baby-*": false,
+					"*-palaeoloxodoncypriotes": false,
+					"*": true
+				},
+				"minGeneration": 2
+			},
+			{
+				"code": "ownable",
+				"enabledByType": {
+					"*-baby-*": false,
+					"*-palaeoloxodoncypriotes": false,
+					"*": true
+				},
+				"minGeneration": 2
+			},
+			{
+				"code": "rideableaccessories",
+				"enabledByType": {
+					"*-baby-*": false,
+					"*-palaeoloxodoncypriotes": false,
+					"*": true
+				},
+				"minGeneration": 2
+			},
+			{
+				"code": "rideable",
+				"enabledByType": {
+					"*-baby-*": false,
+					"*-palaeoloxodoncypriotes": false,
+					"*": true
+				},
+				"minGeneration": 2
+			},
+			{ "code": "repulseagents" },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.1251
+			},
+			{
+				"code": "health",
+				"maxhealthByType": {
+					"*": 100
+				}
+			},
+			{
+				"code": "floatupwhenstuck",
+				"onlyWhenDead": true
+			},
+			{ "code": "breathe" },
+			{
+				"code": "emotionstates",
+				"states": [
+					{
+						"code": "fleeondamage",
+						"duration": 60,
+						"chanceByType": {
+							"*-adult-*": 1,
+							"*-baby-*": 1
+						},
+						"slot": 2,
+						"priority": 4,
+						"accumType": "max",
+						"whenHealthRelBelow": 0.25
+					},
+					{
+						"code": "aggressiveondamage",
+						"duration": 60,
+						"chanceByType": {
+							"*-adult-*": 1,
+							"*-baby-*": 0.0
+						},
+						"slot": 2,
+						"priority": 3,
+						"accumType": "noaccum"
+					},
+					{
+						"code": "fleeondamage",
+						"duration": 60,
+						"slot": 2,
+						"chanceByType": {
+							"*-adult-*": 0.01,
+							"*-baby-*": 1
+						},
+						"priority": 1,
+						"accumType": "max",
+						"whenHealthRelBelow": 0.75
+					},
+					{
+						"code": "fleeondamage",
+						"duration": 30,
+						"slot": 2,
+						"chanceByType": {
+							"*-adult-*": 0.0,
+							"*-baby-*": 1
+						},
+						"priority": 0.5,
+						"accumType": "max",
+						"whenHealthRelBelow": 1
+					},
+					{
+						"code": "alarmherdondamage",
+						"chance": 1,
+						"slot": 1,
+						"priority": 1.5,
+						"accumType": "max"
+					},
+					{
+						"code": "saturated",
+						"duration": 1200,
+						"chance": 1,
+						"slot": 0,
+						"priority": 1,
+						"accumType": "sum"
+					},
+					{
+						"code": "aggressivearoundentities",
+						"duration": 60,
+						"chanceByType": {
+							"*-baby-*": 0.0,
+							"*-adult-*": 1.0
+						},
+						"slot": 2,
+						"priority": 5,
+						"entityCodes": [ "elephantidae:elephantidae-baby-male-{type}", "elephantidae:elephantidae-baby-female-{type}" ],
+						"maxGeneration": 2
+					}
+				]
+			},
+			{
+				"code": "taskai",
+				"aiCreatureType": "LandCreature",
+				"aitasks": [
+					{
+						"code": "cometoowner",
+						"priority": 4,
+						"animation": "Run",
+						"animationSpeed": 1.35,
+						"movespeed": 0.019,
+						"__allowTeleport": true,
+						"teleportMaxRange": 1000,
+						"teleportAfterRange": 200,
+						"teleportToRange": 25
+					},
+					{
+						"code": "meleeattack",
+						"animation": "Attack",
+						"enabledByType": {
+							"*-baby-*": false,
+							"*": true
+						},
+						"entityCodesByType": {
+							"*-adult-*": [ "player", "bear-*", "bell-*", "bowtorn-*", "drifter-*", "hyena-*", "locust-*", "moose-*", "shiver-*", "wolf-*", "caninae-canina-adult-*", "felinae-adult-*", "machairodontinae-adult-*", "pantherinae-neofelis-adult-*", "pantherinae-panthera-adult-*" ]
+						},
+						"priority": 1.9,
+						"slot": 1,
+						"damageByType": {
+							"*": 10
+
+						},
+						"knockbackStrengthByType": {
+							"*": 2
+						},
+						"damageTierByType": {
+							"*": 4
+						},
+						"mincooldown": 1500,
+						"maxcooldown": 1500,
+						"minDistByType": {
+							"*": 4
+						},
+						"minVerDistByType": {
+							"*": 3
+						},
+						"attackDurationMs": 1250,
+						"damagePlayerAtMs": 400,
+						"animationSpeed": 1.2,
+						"soundByType": {
+							"*": "game:creature/eidolon/throw"
+						}
+					},
+					{
+						"code": "seekentity",
+						"animation": "Charge",
+						"entityCodesByType": {
+							"*": ["bear-*", "bell-*", "bowtorn-*", "drifter-*", "shiver-*", "hyena-*", "locust-*", "wolf-*" ],
+						},
+						"priority": 1.82,
+						"mincooldown": 600,
+						"maxcooldown": 650,
+						"seekingRange": 10,
+						"movespeedByType": {
+							"*": 0.056
+						},
+						"animationSpeedByType": {
+							"*": 6
+						}
+					},
+					{
+						"code": "seekentity",
+						"animation": "stand-run",
+						"enabledByType": {
+							"*": true
+						},
+						"entityCodesByType": {
+							"*": ["bear-*", "bell-*", "bowtorn-*", "drifter-*", "shiver-*", "hyena-*", "locust-*", "wolf-*" ]
+						},
+						"priority": 1.83,
+						"mincooldown": 6000,
+						"maxcooldown": 6500,
+						"seekingRange": 15,
+						"movespeedByType": {
+							"*": 0.056
+						},
+						"animationSpeedByType": {
+							"*": 6
+						},
+						"whenInEmotionState": "aggressivearoundentities"
+					},
+					{
+						"code": "seekentity",
+						"animation": "stand-run",
+						"enabledByType": {
+							"*": true
+						},
+						"entityCodesByType": {
+							"*": ["bear-*", "bell-*", "bowtorn-*", "drifter-*", "shiver-*", "hyena-*", "locust-*", "wolf-*"]
+						},
+						"priority": 1.84,
+						"mincooldown": 6000,
+						"maxcooldown": 6500,
+						"seekingRange": 45,
+						"movespeedByType": {
+							"*": 0.056
+						},
+						"animationSpeedByType": {
+							"*": 6
+						},
+						"whenInEmotionState": "aggressiveondamage"
+					},
+					{
+						"code": "getoutofwater",
+						"animation": "stand-walk",
+						"priority": 1.4,
+						"movespeedByType": {
+							"*": 0.014
+						},
+						"animationSpeed": 1.0
+					},
+					{
+						"code": "stayclosetoentity",
+						"animation": "stand-walk",
+						"enabledByType": {
+							"*": true
+						},
+						"priority": 1.81,
+						"entityCodeByType": {
+							"*": "idonknow"
+						},
+						"movespeedByType": {
+							"*": 0.014
+
+						},
+						"animationSpeedByType": {
+							"*": 1.5
+						},
+						"maxDistanceByType": {
+							"*": 25
+						},
+						"searchRange": 45,
+						"soundByType": {
+							"*": "ancientautomata:creature/mechtest1/babycall*"
+						}
+					},
+					{
+						"code": "idle",
+						"animation": "Sit",
+						"priority": 1.2,
+						"minduration": 20000,
+						"maxduration": 240000,
+						"mincooldown": 6000,
+						"maxcooldown": 12000,
+						"priorityForCancel": 1.28,
+						"chanceByType": {
+							"*-adult-*": 0.02,
+							"*": 0.2
+						},
+						"stopOnNearbyEntityCodes": [ "player" ],
+						"stopRange": 10,
+						"animationSpeedByType": {
+							"*-baby-*": 0.6,
+							"*": 0.5
+						},
+						"stopOnHurt": true,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "idle",
+						"animation": "Idle",
+						"priority": 1.2,
+						"minduration": 2000,
+						"maxduration": 24000,
+						"mincooldown": 6000,
+						"maxcooldown": 12000,
+						"priorityForCancel": 1.28,
+						"stopOnNearbyEntityCodes": [ "player", "bear-*", "hyena-male", "hyena-female", "wolf-male", "wolf-female" ],
+						"stopRange": 20,
+						"animationSpeedByType": {
+							"*-baby-*": 0.6,
+							"*": 0.5
+						},
+						"stopOnHurt": true,
+						"soundByType": {
+							"*-elephasmaximus": "elephantidae:creature/elephantidae/squeak*",
+							"*-elephasmaximusborneensis": "elephantidae:creature/elephantidae/squeak*"
+						},
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "idle",
+						"animation": "stand-idle2",
+						"priority": 1.0,
+						"priorityForCancel": 1.35,
+						"minduration": 4667,
+						"maxduration": 4667,
+						"chanceByType": { "*": 0.2 },
+						"mincooldown": 8000,
+						"maxcooldown": 50000,
+						"animationSpeed": 0.6,
+						"soundByType": {
+							"*": "elephantidae:creature/elephantidae/trumpet*",
+
+						},
+						"soundRangeByType": {
+							"*-baby-*": 40,
+							"*-palaeoloxodoncypriotes": 80,
+							"*": 120
+						},
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "idle",
+						"animation": "Roar",
+						"priority": 1.0,
+						"priorityForCancel": 1.35,
+						"minduration": 4667,
+						"maxduration": 4667,
+						"chanceByType": { "*": 0.2 },
+						"mincooldown": 8000,
+						"maxcooldown": 50000,
+						"animationSpeed": 0.6,
+						"soundByType": {
+							"*-adult-*": "elephantidae:creature/elephantidae/trumpet*",
+							"*-baby-*": "elephantidae:creature/elephantidae/babycall*"
+						},
+						"soundRangeByType": {
+							"*-baby-*": 40,
+							"*-palaeoloxodoncypriotes": 80,
+							"*": 120
+						},
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "wander",
+						"animation": "stand-walk",
+						"priority": 1.0,
+						"priorityForCancel": 1.35,
+						"wanderChanceByType": {
+							"*-adult-*": 0.1,
+							"*": 0.5
+						},
+						"movespeedByType": {
+							"*-adult-*-elephasmaximus": 0.007,
+							"*-baby-*-elephasmaximus": 0.00475,
+							"*-adult-*-elephasmaximusborneensis": 0.007,
+							"*-baby-*-elephasmaximusborneensis": 0.0045,
+							"*-adult-*-loxodontaafricana": 0.0077,
+							"*-baby-*-loxodontaafricana": 0.00475,
+							"*-adult-*-loxodontacyclotis": 0.006,
+							"*-baby-*-loxodontacyclotis": 0.004,
+							"*-adult-*-mammuthuscolumbi": 0.008,
+							"*-baby-*-mammuthuscolumbi": 0.005,
+							"*-adult-*-mammuthusexilis": 0.006,
+							"*-baby-*-mammuthusexilis": 0.004,
+							"*-adult-*-mammuthusprimigenius": 0.007,
+							"*-baby-*-mammuthusprimigenius": 0.00475,
+							"*-adult-*-palaeoloxodoncypriotes": 0.003,
+							"*-baby-*-palaeoloxodoncypriotes": 0.0018
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 1,
+							"*-adult-female-elephasmaximus": 0.6,
+							"*-adult-male-elephasmaximus": 0.5,
+							"*-adult-female-elephasmaximusborneensis": 0.63,
+							"*-adult-male-elephasmaximusborneensis": 0.55,
+							"*-adult-female-loxodontaafricana": 0.57,
+							"*-adult-male-loxodontaafricana": 0.45,
+							"*-adult-female-loxodontacyclotis": 0.72,
+							"*-adult-male-loxodontacyclotis": 0.63,
+							"*-adult-female-mammuthuscolumbi": 0.52,
+							"*-adult-male-mammuthuscolumbi": 0.46,
+							"*-adult-female-mammuthusexilis": 0.73,
+							"*-adult-male-mammuthusexilis": 0.67,
+							"*-adult-female-mammuthusprimigenius": 0.61,
+							"*-adult-male-mammuthusprimigenius": 0.51,
+							"*-adult-female-palaeoloxodoncypriotes": 1,
+							"*-adult-male-palaeoloxodoncypriotes": 0.8,
+							"*": 0.75
+						},
+						"preferredLightLevel": 20,
+						"wanderRangeMaxByType": {
+							"*-adult-male-*": 250,
+							"*adult-female-*": 50,
+							"*-baby-*": 20
+						},
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "lookaround",
+						"enabledByType": { "*": false },
+						"priority": 0.5,
+						"animationSpeed": 0.75,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					}
+				]
+			},
+			{
+				"code": "ropetieable",
+				"minGeneration": 2
+			},
+			{
+				"code": "pettable",
+				"minGeneration": 1
+			}
+		]
+	},
+	"soundsByType": {
+"*-adult-*":{"hurt": "elephantidae:creature/elephantidae/roar*","death": "elephantidae:creature/elephantidae/roar*","idle": "elephantidae:creature/elephantidae/growl*"},
+		"*-baby-*": {"hurt": "elephantidae:creature/elephantidae/babycall*","death": "elephantidae:creature/elephantidae/babycall*","idle": "elephantidae:creature/elephantidae/babycall*"}},
+	"idleSoundChance": 0.25
+}
